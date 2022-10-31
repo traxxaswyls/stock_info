@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.6.2)
+  - BeautyChart (0.2.0)
+  - SwiftYFinance (1.5.0):
+    - Alamofire (~> 5.2)
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - BeautyChart
+  - SwiftYFinance (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BeautyChart
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftYFinance:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  BeautyChart: 243e47efbf1cafd1550892fe22ed468764aa1131
+  SwiftYFinance: dce2ba9a7a1a4699905af63730707b17d42b31b3
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: f729aa989e63bee1e74f5c272965dea7af5d3879
+
+COCOAPODS: 1.11.2
